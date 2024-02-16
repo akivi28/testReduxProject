@@ -1,0 +1,60 @@
+.postsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+}
+
+.postContainer {
+    border: 1px solid #7a7a7a;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.commentContainer {
+    border: 1px solid #bdbcbc;
+    padding: 10px;
+    margin: 8px 0;
+    background-color: #7a7a7a;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.albumContainer{
+    border: 1px solid #7a7a7a;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.albumContainer button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(16, 158, 16);
+    color: white;
+    padding: 10px;
+}
+.albumContainer button:hover{
+    background-color: green;
+}
+.albumsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 10px;
+    grid-auto-flow: dense;
+}
+.photoContainer{
+    border: 1px solid #7a7a7a;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photoContainer img{
+    width: 300px;
+}
+.photosContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+}
